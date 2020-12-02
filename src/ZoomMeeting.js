@@ -73,7 +73,7 @@ const ZoomMeeting = (props) => {
         return () => {
             zoomRoot.classList.remove("show-zoom");
         }
-    }, [])
+    })
 
     return (
         <>
